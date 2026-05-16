@@ -1,6 +1,6 @@
 # Haze’s Sprint Helper
 
-A client-side Fabric mod for Minecraft Java Edition **1.21.11** that automates sprinting and swimming with smooth, configurable, and performance-optimized logic.
+A client-side Fabric mod for Minecraft Java Edition that automates sprinting and swimming with smooth, configurable, and performance-focused movement logic.
 
 ---
 
@@ -40,12 +40,6 @@ All settings are configurable in-game via Mod Menu or config GUI.
 - Auto Swim (default: true)
 - Swim while sneaking (default: false)
 
-### Restrictions
-- Sprint while sneaking
-- Sprint while flying
-- Sprint while riding entities
-- Sprint while low hunger
-
 ### HUD
 - HUD enabled
 - Position & scale controls
@@ -71,11 +65,11 @@ All settings are configurable in-game via Mod Menu or config GUI.
 
 ## 🎮 Installation
 
-1. Install Fabric Loader **0.19.2**
-2. Add Fabric API **0.141.4+1.21.11**
-3. (Optional) Install Mod Menu
-4. Drop mod into `/mods` folder
-5. Launch game
+1. Install Fabric Loader (compatible with your Minecraft version)
+2. Install Fabric API (matching your version)
+3. (Optional) Install Mod Menu for config UI
+4. Place the mod jar into your `/mods` folder
+5. Launch the game
 
 ---
 
@@ -88,9 +82,9 @@ All settings are configurable in-game via Mod Menu or config GUI.
 
 ## 🧱 Technical
 - Client-side only
-- Fabric 1.21.11 API
+- Fabric API based
 - Efficient tick handling
-- Cached sprint state logic
+- Cached sprint state system
 - Minimal mixins
 
 ---
